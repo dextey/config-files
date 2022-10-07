@@ -26,3 +26,20 @@ const logger = (message: string): void => {
 const throwError = (message: string): never => {
   throw new Error(message);
 };
+
+const Profile = {
+  name: "Some Name",
+  age: 23,
+  coords: {
+    lat: "34",
+    log: "74",
+  },
+  setAge(age: number): void {
+    this.age = age;
+  },
+};
+
+const {
+  age,
+  coords: { lat, log },
+} = Profile;
