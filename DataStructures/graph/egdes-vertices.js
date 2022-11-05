@@ -31,7 +31,7 @@ const isConnected = (node1, node2) => {
   });
 };
 
-console.log(isConnected("A", "E"));
+// console.log(isConnected("A", "E"));
 
 for (let vertex of vertices) {
   const nodes = findAdjacentNodes(vertex);
