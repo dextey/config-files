@@ -31,10 +31,10 @@ const nodeD = new Node("D", "Bvalue3");
 const nodeE = new Node("E", "Cvalue4");
 
 const graph = new Graph([nodeA, nodeB, nodeC, nodeD, nodeE]);
-nodeB.connectNode(nodeA);
-nodeC.connectNode(nodeA);
-nodeD.connectNode(nodeB);
-nodeE.connectNode(nodeC);
+nodeA.connectNode(nodeB);
+nodeA.connectNode(nodeC);
+nodeB.connectNode(nodeD);
+nodeC.connectNode(nodeE);
 
 nodeA.changeValue("Avalue1");
 nodeB.changeValue("Bvalue3");
