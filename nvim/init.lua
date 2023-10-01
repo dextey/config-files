@@ -1,0 +1,6 @@
+require("dex.main")
+require("dex.colorscheme")
+require("dex.keymaps")
+require("dex.options")
+require("dex.nvimtree") 
+require("dex.autopair")
